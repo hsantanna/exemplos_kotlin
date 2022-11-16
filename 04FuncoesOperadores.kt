@@ -16,5 +16,7 @@ fun main() {
     println(jogoDaVelha(3))
 
     println(enviarMensagem("Brasil"))
+    val nulo = null
+    println(enviarMensagem(nulo))
 }
 
