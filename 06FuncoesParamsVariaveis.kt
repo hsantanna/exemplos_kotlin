@@ -3,6 +3,8 @@ fun main() {
     println(lista)
     var lista2 = converterLista(1, 2, 3, 4)
     println(lista2)
+
+    printAll("Hello", "Hallo", "Salut", "Hola", "你好")
 }
 
 fun <G> converterLista(vararg parametros : G): List<G> {
@@ -13,3 +15,6 @@ fun <G> converterLista(vararg parametros : G): List<G> {
     return listaLocal
 }
 
+fun printAll(vararg messages: String) {
+    for (m in messages) println(m)
+}
