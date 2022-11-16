@@ -13,11 +13,11 @@ enum class DiasDaSemana(val dia : Int) {
 fun main() {
 
     for (valor in DiasDaSemana.values()) {
-        println("${valor.ordinal}: ${valor}" )
+        println("${valor.dia}: ${valor}" )
     }
 
     if (DiasDaSemana.QUINTA.dia == 5) {
-        println("encontrou: ${DiasDaSemana.QUINTA}")
+        println("encontrou: ${DiasDaSemana.QUINTA.name}")
     }
 
 }
