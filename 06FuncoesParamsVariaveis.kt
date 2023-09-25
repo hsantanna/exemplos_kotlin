@@ -4,7 +4,7 @@ fun main() {
     var lista2 = converterLista(1, 2, 3, 4)
     println(lista2)
 
-    printAll("Hello", "Hallo", "Salut", "Hola", "你好")
+    printAll("Hello", "Hallo", "Salut", "Hola", "オラ")
 }
 
 fun <G> converterLista(vararg parametros : G): List<G> {

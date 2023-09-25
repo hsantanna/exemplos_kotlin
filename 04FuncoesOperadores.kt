@@ -10,13 +10,19 @@ fun enviarMensagem(msg: String?) : String {
 
 }
 
+fun responder(valor: Boolean) : String {
+    return if (valor) "Sim" else "Não"
+}
+
 fun main() {
 
-    println(jogoDaVelha(2))
-    println(jogoDaVelha(3))
+    println(jogoDaVelha(2))  // return: "X"
+    println(jogoDaVelha(3))  // return: "O"
 
-    println(enviarMensagem("Brasil"))
+    println(enviarMensagem("Brasil")) // imprime: Brasil
     val nulo = null
-    println(enviarMensagem(nulo))
+    println(enviarMensagem(nulo))  // imprime: nada
+    println(responder(true))   // imprime: Sim
+    println(responder(false))  // imprime: Não
 }
 

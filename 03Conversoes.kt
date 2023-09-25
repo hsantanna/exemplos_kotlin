@@ -9,4 +9,7 @@ fun main() {
     texto = null
     println(texto)
     println(texto?.length)
+
+    var numero: Any? = 123
+    println(numero as Int)
 }
