@@ -7,6 +7,8 @@ fun buscaInteiro(s: String?, valorDefault: Int = 0): Int {
 
 fun areaRetangulo(
     base: Double, altura: Double = base): Double {
+
+        
     return base * altura
 }
 

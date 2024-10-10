@@ -1,3 +1,8 @@
+interface MinhaInterface {
+    fun executar(soma: Int)
+}
+
+
 class MinhaClasse {
 
     fun somar(x: Int, y:Int) {
@@ -17,9 +22,6 @@ class MinhaClasse {
 
 }
 
-interface MinhaInterface {
-    fun executar(soma: Int)
-}
 
 fun main() {
 

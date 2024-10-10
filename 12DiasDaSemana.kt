@@ -14,6 +14,9 @@ fun main() {
 
     for (valor in DiasDaSemana.values()) {
         println("${valor.dia}: ${valor}" )
+        if (valor.dia == DiasDaSemana.SEXTA.dia) {
+            println("encontrou: ${DiasDaSemana.SEXTA.name}")
+        }
     }
 
     if (DiasDaSemana.QUINTA.dia == 5) {

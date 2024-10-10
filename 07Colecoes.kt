@@ -14,7 +14,9 @@ fun main() {
 
     val numeros3 = numeros
 
-    println(numeros3)
+    numeros.add(5)  // numeros3 é referência para numeros
+
+    println("numeros3: ${numeros3}")
 
     val numeros4 = listOf(1, 2, 3, 4, 5)
 
